@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosmetikstudio Beauty Balance</title>
+    <link rel="stylesheet" type="260" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5eeeee3;
+        }
+        header {
+            background-color: #f1d5d5;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .logo {
+            width: 150px;
+            height: 150px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .offerings {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+        .offering {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo.jpg" alt="Beauty Balance Logo" class="logo">
+    </header>
+    <nav>
+        <a href="#angebote">Angebote</a>
+        <a href="#Kontakt">Kontakt</a>
+        <a href="#behandlungen">Behandlungen</a>
+        <a href="#produkte">Produkte</a>
+        <a href="#terminvereinbarung">Terminvereinbarung</a>
+    </nav>
+    <section id="angebote" class="container">
+        <h2>Unsere Angebote</h2>
+        <div class="offerings">
+            <div class="offering">
+                <h3>Gesichtsbehandlung</h3>
+                <p>Erhalten Sie eine erfrischende Gesichtsbehandlung mit Rabatt für nur 50€.</p>
+            </div>
+            <div class="offering">
+                <h3>Maniküre und Pediküre</h3>
+                <p>Genießen Sie eine Maniküre und Pediküre für nur 40€.</p>
+            </div>
+            <!-- Weitere Angebote hier einfügen -->
+        </div>
+    </section>
+    <section id="kontakt" class="container">
+        <h2>Kontakt</h2>
+        <p>Adresse: Musterstraße 123, 12345 Musterstadt</p>
+        <p>Telefon: 01234 / 567890</p>
+        <p>Email: info@beautybalance.com</p>
+    </section>
+    <section id="behandlungen" class="container">
+        <h2>Behandlungen</h2>
+        <p>Hier können Sie Informationen über unsere verschiedenen Behandlungen finden.</p>
+    </section>
+    <section id="produkte" class="container">
+        <h2>Produkte</h2>
+        <p>Entdecken Sie unsere hochwertigen Pflegeprodukte.</p>
+    </section>
+    <section id="terminvereinbarung" class="container">
+        <h2>Terminvereinbarung</h2>
+        <p>Vereinbaren Sie jetzt einen Termin für Ihre persönliche Behandlung.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Beauty Balance - Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
